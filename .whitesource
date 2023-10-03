@@ -3,6 +3,7 @@
     "configMode": "AUTO",
     "configExternalURL": "",
     "projectToken": "",
+    "enableIaC": "true",
     "baseBranches": []
   },
   "scanSettingsSAST": {
@@ -12,14 +13,6 @@
     "baseBranches": [],
     "snippetSize": 10
   },
-  "scanSettings": {
-    "enableIaC": true,
-    "baseBranches": ["master", “integration"]
-  },
-  "checkRunSettings": {
-    "useMendCheckNames": true,
-    "iacCheckRunConclusionLevel": "failure"
-  }
   "checkRunSettings": {
     "vulnerableCheckRunConclusionLevel": "failure",
     "displayMode": "diff",
